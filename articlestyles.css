@@ -1,0 +1,156 @@
+/*Artikel*/
+.articleheading{
+    color: black;
+    padding-top: 240px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 44pt;
+    padding-bottom: 60px;
+}
+
+.articleheading_1{
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 44pt;
+    padding-bottom: 60px;
+    margin-top: -60px;
+}
+
+.articleimage{
+    display: flex;
+    justify-content: center;
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 12pt;
+    margin-left: 220px;
+}
+
+.article{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.articletext{
+    width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    padding-right: 185px;
+}
+
+.articletext h2{
+    font-size: 22pt;
+    padding-bottom: 7px;
+}
+
+.articletext p{
+    font-size: 16pt;
+}
+
+/*Læs mere artikel*/
+.læsmere{
+    width: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e00200;
+    height: 850px;
+    font-size: 10pt;
+}
+
+.læsmere h2{
+    padding: 15px;
+    padding-bottom: 20px;
+}
+
+.læsmere img{
+    height: 350px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-left: 50px;
+}
+
+/*Sætliste*/
+.sætliste{
+    width: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e00200;
+    height: 720px;
+    font-size: 10pt;
+}
+
+.sætliste h2{
+    padding: 15px;
+}
+
+.sætliste li{
+    font-size: 14pt;
+    line-height: 1.4;
+}
+
+iframe{
+    position: relative;
+    margin-top: 35px;
+}
+
+.concertimages{
+    display: flex;
+    justify-content: space-around;
+    background-color: #e00200;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 185px;
+    padding-right: 190px;
+    margin-top: 100px;
+}
+
+.concertimages img{
+    height: 400px;
+}
+
+/*Nyhedsartikel*/
+.nyhedsartikel{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.nyhedsartikel div{
+    width: 32%;
+    margin-left: 20px;
+}
+
+.nyhedsartikel h2{
+    font-size: 22pt;
+    padding-bottom: 7px;
+}
+
+.nyhedsartikel p{
+    font-size: 16pt;
+}
+
+/*Nyhed billeder*/
+.nyhed_images{
+    display: flex;
+    justify-content: space-around;
+    background-color: #e00200;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 185px;
+    padding-right: 190px;
+    margin-top: 100px;
+}
+
+.nyhed_images div{
+    width: 400px;
+    background-color: #b8b8b8;
+    height: 400px;
+}
