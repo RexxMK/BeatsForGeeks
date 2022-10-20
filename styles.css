@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+}
+
+/*Header*/
+header{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    padding-top: 5px;
+    z-index: 1;
+}
+
+header hr{
+    margin-top: 13px;
+}
+
+header img{
+    margin-top: -63px;
+}
+
+/*Navigationbar*/
+nav{
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#nyheder{
+    padding-left: 200px;
+}
+
+#events{
+    padding-right: 200px;
+}
+
+nav a{
+    color: white;
+    text-decoration-line: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a:hover{
+    color: #e00200;
+    transition-duration: 0.1s;
+}
+
+/*Forside artikel*/
+.frontarticle{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -155px;
+    background-color: white;
+    width: 860px;
+    margin-left: 465px;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    color: black;
+    text-decoration-line: none;
+    text-transform: uppercase;
+}
+
+.frontarticle h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 12pt;
+    margin-top: 20px;
+}
+
+.frontarticle h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 46pt;
+    margin-top: 15px;
+}
+
+.frontarticle:hover{
+    color: #e00200;
+    transition-duration: 0.1s;
+}
+
+/*Øvrige artikler 3 bokse*/
+.cards{
+    background-color: #e00200;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    height: 500px;
+    padding-top: 80px;
+}
+
+.cards img{
+    width: 420px;
+    padding-bottom: 10px;
+}
+
+.cards a{
+    color: white;
+    text-decoration-line: none;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.dates{
+    position: relative;
+    margin-top: -100px;
+    background-color: rgba(0, 0, 0, 0.446);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dates h5{
+    padding-bottom: 10px;
+}
+
+.dates h2:hover{
+    color: #b8b8b8;
+    transition-duration: 0.1s;
+}
+
+/*Vis mere knap*/
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 689px;
+    width: 415px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: black 1px solid;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12pt;
+    text-transform: uppercase;
+}
+
+.button:hover{
+    background-color: black;
+    transition-duration: 0.2s;
+    color: white;
+}
+
+/*Footer*/
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin-top: 100px;
+    padding-top: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+footer img{
+    margin-left: 210px;
+    padding-bottom: 20px;
+}
+
+footer h2{
+    margin-left: 115px;
+}
+
+.newsletter{
+    margin-top: 20px;
+}
+
+.newsletter input{
+    width: 450px;
+    padding: 15px;
+    background-color: #313131;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12pt;
+    color: #b8b8b8;
+}
+
+#tilmeld{
+    width: 200px;
+    border: 1px solid white;
+    color: white;
+}
+
+#tilmeld:hover{
+    color: #e00200;
+    border: 1px solid #e00200;
+    transition-duration: 0.1s;
+}
+
+.checkbox{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    margin-top: 20px;
+    padding-bottom: 60px;
+}
+
+#privat{
+    color: white;
+}
+
+#privat:hover{
+    color: #e00200;
+    transition-duration: 0.1s;
+}
+
+
+

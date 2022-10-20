@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beats For Geeks</title>
+    <!--Dette er mit stylesheet-->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="articlestyles.css">
+    <link rel="stylesheet" href="overviewstyles.css">
+    
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+
+        <nav>
+            <a href="news_overview.html" id="nyheder">nyheder</a>
+            <a href="articles_overview.html">artikler</a>
+            <a href="reviews_overview.html">anmeldelser</a>
+            <a href="#">interviews</a>
+            <a href="#" id="events">events</a>
+        </nav>
+    </header>
+
+    <!--Forsidebillede-->
+    <main>
+        <a href="article_hjernenpåmusik.html" id="frontimage"><img src="images/hjernen.jpg" alt="forsidebillede"></a>
+
+        <a href="article_hjernenpåmusik.html" class="frontarticle">
+            <div>
+                <h5>Artikel - 21.10.2022</h5>
+                <h1>hjernen på musik</h1>
+            </div>
+        </a>
+
+        <!--Cardcontainer-->
+        <section class="cards">
+
+            <div>
+                <a href="article_queenanmeldelse.html"><img src="images/queenbrian.jpg" alt="Brian May"></a>
+
+                <div class="dates">
+                    <a href="article_queenanmeldelse.html"><h5>anmeldelse - 18.07.2022</h5></a>
+                    <a href="article_queenanmeldelse.html"><h2>Queen + Adam Lambert <br>Rhapsody Tour</h2></a>
+                </div>
+            </div>
+
+            <div>
+                <a href="#"><img src="images/fourfingers.jpg" alt="#"></a>
+                
+                <div class="dates">
+                    <a href="#"><h5>artikel - xx.xx.xxxx</h5></a>
+                    <a href="#"><h2>Overskrift</h2></a>
+                </div>
+            </div>
+
+            <div>
+                <a href="article_patd.html"><img src="images/patd.jpg" alt="#"></a>
+                
+                <div class="dates">
+                    <a href="article_patd.html"><h5>nyhed - 19.08.2022</h5></a>
+                    <a href="article_patd.html"><h2>Panic! at the disco <br>viva las vengeance</h2></a>
+                </div>
+            </div>
+
+        </section>
+
+        <!--Vis mere knap-->
+        <div class="vismere">
+            <button class="button">vis mere</button>
+        </div>        
+
+    </main>
+
+        <!--Footer-->
+        <footer>
+            <div>
+                <a href="#"><img src="images/logohvid.png" alt="Logo"></a>
+                <h2>Tilmeld dig BeatsForGeeks nyhedsbrev</h2>
+
+                <div class="newsletter">
+                    <input type="text" placeholder="INDTAST DIN EMAILADRESSE" name="mail" required>
+                    <input type="submit" value="TILMELD" id="tilmeld">
+                </div>
+                    
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="Tilmeld">Ja tak, jeg ønsker at modtage BeatsForGeeks nyhedsbrev og accepterer dermed 
+                        <br><a href="#" id="privat">privatlivspolitikken</a>
+                    </label>
+                </div>
+
+            </div>
+        </footer>
+    
+    
+</body>
+</html>

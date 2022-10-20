@@ -1,0 +1,80 @@
+/*Oversigt titel*/
+.overview_title{
+    padding-top: 220px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+    margin-left: 220px;
+    width: 1350px;
+}
+
+/*Primær artikel*/
+.overview_main a{
+    color: black;
+    text-decoration: none;
+}
+
+.overview_main a:hover{
+    color: #e00200;
+}
+
+.overview_main img{
+    padding-top: 70px;
+    margin-left: 325px;
+}
+
+.overview_main_title{
+    position: relative;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -105px;
+    background-color: white;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    width: 700px;
+    margin-left: 540px;
+}
+
+.overview_main_title h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    font-weight: 100;
+}
+
+.overview_main_title h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36pt;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/*Artikler*/
+.more_content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.more_content img{
+    background-color: #b8b8b8;
+    height: 350px;
+    width: 350px;
+}
+
+.more_content h5{
+    font-weight: 100;
+}
+
+.more_content a{
+    color: black;
+    text-decoration: none;
+}
+
+.more_content a:hover{
+    color: #e00200;
+}
